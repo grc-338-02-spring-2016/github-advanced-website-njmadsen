@@ -54,25 +54,20 @@ html, body {
 }
 
 .about-text-photo img{
-    width: 32%
+    width: 32%;
+    margin-top: -.5em;
 }
 
 .photography-images {
     width:80%;
     margin: auto;
-    
-        
+           
 }
 
 .photography-images img{
     width: 24.5%;
-    float: left;
-    margin-right: .5%;
-    margin-bottom: .5%;
-    
-    
+    display: inline-block;    
 }
-
 
 /*end images*/
 
@@ -154,16 +149,17 @@ footer {
 }
 
 footer img {
-    width: 12%;
-    margin-right: 0em;
+    width: 12.6%;
+    margin-right: -.3em;
     margin-left: 0em;
     margin-top: .5em;
+    margin-bottom: -.3em;
     
     
 }
 
 footer p {
-   margin-top: 15em; 
+   margin-top: 10em; 
     text-align: center;
     font-size: 1.15em;
     
@@ -206,7 +202,7 @@ footer .fa-facebook {
 
 footer .fa-instagram {
     color: white;
-    
+    padding: .65em .7em .65em .7em; 
 }
 
 footer .fa-pinterest-p {
@@ -217,7 +213,7 @@ footer .fa-pinterest-p {
 
 footer .fa-linkedin {
     color: white;
-    
+   padding: .65em .7em .65em .7em;   
 }
 
 footer i
@@ -342,17 +338,107 @@ input[type=text]:focus {
 
     
 /*For Tablets*/
-@media only screen and (min-width: 48em) {
+@media screen and (max-width: 800px) {
+     
+.photography-images img{
+    width: 32.5%;     
+}
     
+h1 {
+    font-size: 2em;
+    } 
+
+h2 {font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: .75em;
+        
+    }    
     
+p {font-size: .8em;    
+    } 
     
+header .menu-social {
+    width: 25%;
+    }
+
+footer p{
+    font-size: .9em;
+       margin-top: 4em; 
+    }    
+
+footer ul li a {
+    font-size: .75em;   
+} 
+    
+footer ul {
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}    
     
 }
 
-/*For Desktop*/
-@media only screen and (min-width: 64em) {
+/*For iPhone*/
+@media screen and (max-width: 400px) {
     
+      
+.photography-images img{
+    width: 49.25%;     
+}
     
+h1 {
+    font-size: 1.5em;
+    } 
+
+h2 {font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: .75em;
+        
+    }    
+    
+p {font-size: .8em;    
+    } 
+    
+.me-photo {
+    width: 60%;
+    clear: both;
+    margin-left: 20%;
+    margin-bottom: 1em;
+    padding-right: 0%;
+    border-right: 0px;
+    
+}
+   
+    
+.about-text-photo {
+    width:80%;
+    clear: both;
+   margin-left: 10%;
+}
+   
+    
+header .menu-social {
+    width: 45%;
+    }
+
+footer p{
+    font-size: .75em;
+    margin-top: 4em; 
+    margin-bottom: .5em;
+    }    
+
+footer ul li a {
+    font-size: .5em; 
+} 
+    
+footer ul {
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+}    
+    
+footer img {
+    width: 24.5%;
+    margin-top: 0em;
+}  
     
     
 }

@@ -1,0 +1,358 @@
+/* CSS Document */
+
+html, body {
+  height: 100%;
+  width: 100%;
+    
+}
+
+/*images*/
+
+
+.home-image-top {
+    margin: auto;
+    margin-top: 2em;
+    width: 70%
+    
+}
+
+.home-image-top img {
+    width: 100%;
+}
+
+
+.home-photos-three {
+    width: 70%;
+   margin: auto;
+    margin-top: 1.25em; 
+    
+}
+
+.home-photos-three img{
+    width: 31%;
+    float: left;
+}
+
+.invisible {
+    min-height: 2em;
+    float: left;
+    margin-right: 2.25%
+}
+
+
+.me-photo {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    padding-right: 2.5%;
+    border-right: 1px solid grey;
+    
+}
+
+.me-photo img {
+    width: 100%;
+}
+
+.about-text-photo img{
+    width: 32%
+}
+
+.photography-images {
+    width:80%;
+    margin: auto;
+    
+        
+}
+
+.photography-images img{
+    width: 24.5%;
+    float: left;
+    margin-right: .5%;
+    margin-bottom: .5%;
+    
+    
+}
+
+
+/*end images*/
+
+/*Header*/
+
+
+header {
+    width: 100%;
+    background-color: white;
+    margin-top: 0em;
+    border-bottom: 1px solid rgba(105,105,105, .5);
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+
+header .menu ul li {
+    display: block;
+    position: relative;
+    float: left;
+    font-size: .8em;
+    font-family: 'Raleway', sans-serif;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 2em;    
+} 
+
+
+header .menu ul li a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+header .menu ul li a:hover {
+    color: #BC8F8F;
+}
+
+header .menu-social {
+    width: 20%;
+    float: right;
+    text-align: right;
+    
+}
+
+header .menu-social ul li{
+    text-align:center;
+    float: left;
+    width: 16%;    
+}
+
+header .menu-social ul li a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+header .menu-social ul li a:vistied{
+   color: dimgray;
+    
+}
+
+header .menu-social ul li a:hover {
+     color: #BC8F8F;
+}
+
+/*End Header*/
+
+/*Footer*/
+
+.clear {
+    min-height: .25em;
+    clear:both;
+    
+}
+
+footer {
+    margin: auto;
+    width: 100%;
+    
+}
+
+footer img {
+    width: 12%;
+    margin-right: 0em;
+    margin-left: 0em;
+    margin-top: .5em;
+    
+    
+}
+
+footer p {
+   margin-top: 15em; 
+    text-align: center;
+    font-size: 1.15em;
+    
+}
+
+footer ul {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(105,105,105, .2);
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+footer ul li {
+    float: left;
+    margin: auto;
+    width: 25%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+footer ul li a:visited {
+    text-decoration: none;
+    color: dimgray;  
+}
+ 
+footer .fa-facebook {
+    color: white;
+    padding: .55em .75em .55em .75em;
+    
+}
+
+footer .fa-instagram {
+    color: white;
+    
+}
+
+footer .fa-pinterest-p {
+    color: white;
+    padding: .6em .75em .55em .75em;
+    
+}
+
+footer .fa-linkedin {
+    color: white;
+    
+}
+
+footer i
+{
+ background-color: dimgray;
+ border-radius: 50%;
+ padding:10px;
+}
+
+/*end footer*/
+
+
+h1 { font-size: 2.5em;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    color: dimgray;
+    font-family: 'Quicksand', sans-serif;
+    clear: both;
+  
+}
+
+h2 {
+     font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: #83b5bb;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2em;
+
+}
+
+p {
+    color: dimgrey;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Raleway', sans-serif;
+}
+
+p a {text-decoration: none;
+    color: #BC8F8F;
+    
+}
+
+em { font-style: italic;
+    
+}
+
+.about-text-photo {
+    width:45%;
+    float: left;
+   margin-left: 2.5%;
+}
+
+.about-photos {
+    float: right;
+    
+}
+
+/* form */
+
+.form {
+    max-width: 60%;
+    margin: auto;
+    margin-top: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(105,105,105);
+    
+}
+
+.form input {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1.2em;
+    box-sizing: border-box;
+    background-color: rgb(250,250,250);
+    border: 1px solid rgba(128,128,128, .3);
+}
+ 
+.form-name {
+    width: 47.5%;
+    float: left;
+    
+}
+
+.form-invisible {
+    min-height: 1em;
+    width:5%;
+    float: left;
+    
+}
+
+.form-email-subject {
+    clear: both;
+}
+
+.form-message input{
+padding-bottom:7em;
+
+    
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(105,105,105);
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    color: rgb(255,255,255);
+    font-size: 1em;
+    padding: .75em;
+    text-decoration: none;
+    cursor: pointer;
+    max-width: 25%
+}
+
+input[type=text]:focus {
+    background-color: rgb(255,255,255);
+    outline: none;
+}
+
+/* end form */
+
+
+    
+/*For Tablets*/
+@media only screen and (min-width: 48em) {
+    
+    
+    
+    
+}
+
+/*For Desktop*/
+@media only screen and (min-width: 64em) {
+    
+    
+    
+    
+}

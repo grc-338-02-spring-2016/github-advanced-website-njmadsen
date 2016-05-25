@@ -84,7 +84,7 @@ header {
 }
 
 
-header .menu ul li {
+header #nav ul li {
     display: block;
     position: relative;
     float: left;
@@ -96,12 +96,12 @@ header .menu ul li {
 } 
 
 
-header .menu ul li a {
+header #nav ul li a {
     text-decoration: none;
     color: dimgray;
 }
 
-header .menu ul li a:hover {
+header #nav ul li a:hover {
     color: #BC8F8F;
 }
 
@@ -339,7 +339,93 @@ input[type=text]:focus {
     
 /*For Tablets*/
 @media screen and (max-width: 800px) {
-     
+ 
+/*Hmaburger menu */    
+header #nav {
+    width: 40%;
+    top: 33px;
+    position: absolute;
+}
+
+header #nav:before {
+    content: '\2630';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: -25px;
+    color: dimgray;
+    line-height: 27px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header #nav ul {
+    background-color: dimgray;
+    text-align: center;
+}
+
+header #nav ul li {
+    float: none;
+    padding: 20px 0 20px 0;
+    margin: 0em;
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+   
+        
+    
+}
+
+header #nav ul li a {
+    font-size: 15px;
+   color: white;
+    z-index: 10;
+    transition: 500ms ease;
+    -moz-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+}
+
+
+
+header #nav ul {
+    display: block;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 500ms ease-in-out;
+    -moz-transition: 500ms ease-in-out;
+    -webkit-transition: 500ms ease-in-out;
+    -ms-transition: 500ms ease-in-out;
+    -o-transition: 500ms ease-in-out;
+
+    transform: perspective(0) rotate3d(0, 0, 0, 0);
+    -moz-transform: perspective(0) rotate3d(1, 0, 0, -90deg);
+    -ms-transform: perspective(0) rotate3d(0, 0, 0, 0);
+    -o-transform: perspective(0) rotate3d(0, 0, 0, 0);
+    -webkit-transform: perspective(0) rotate3d(1, 0, 0, -90deg);
+
+    transform-origin: 100% 0%;
+    -moz-transform-origin: 100% 0%;
+    -webkit-transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    -o-transform-origin: 100% 0%;
+}
+
+header #nav.open ul {
+    height: auto;
+    opacity: 1;
+    transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    -o-transform: translateY(8px);
+    -moz-transform: translateY(8px);
+    -webkit-transform: translateY(8px);
+}
+ 
+ /*end hamburger menu*/  
+    
+    
+    
 .photography-images img{
     width: 32.5%;     
 }
@@ -356,11 +442,13 @@ h2 {font-size: 1.5em;
     
 p {font-size: .8em;    
     } 
-    
+
+/*Header*/    
 header .menu-social {
-    width: 25%;
+    width: 40%;
     }
 
+/*Footer*/    
 footer p{
     font-size: .9em;
        margin-top: 4em; 
@@ -379,8 +467,30 @@ footer ul {
 
 /*For iPhone*/
 @media screen and (max-width: 400px) {
+
     
-      
+/*Hmaburger menu */    
+header #nav {
+    width: 100%;
+    top: 33px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+header #nav ul li {
+    margin-top: 10px;
+ 
+}
+
+ /*end hamburger menu*/  
+   
+    
+.photography-images {
+    width:85%
+    }
+    
 .photography-images img{
     width: 49.25%;     
 }
@@ -397,7 +507,8 @@ h2 {font-size: 1em;
     
 p {font-size: .8em;    
     } 
-    
+ 
+/*About page*/    
 .me-photo {
     width: 60%;
     clear: both;
@@ -407,27 +518,46 @@ p {font-size: .8em;
     border-right: 0px;
     
 }
-   
-    
+       
 .about-text-photo {
     width:80%;
     clear: both;
    margin-left: 10%;
 }
-   
     
-header .menu-social {
-    width: 45%;
+/*Home Images*/    
+.home-image-top {
+    margin-top: 1em;
+    width: 85% 
+}
+
+.home-photos-three {
+    clear: both;
+    width: 50%;
+    margin: auto;
+    margin-top: .3em; 
+    
+}
+
+.home-photos-three img{
+    width: 100%;
+    margin-top: .5em;
+}
+  
+   
+/*Header*/    
+header .menu-social{
+    width: 55%;
     }
 
+/*Footer*/    
 footer p{
-    font-size: .75em;
     margin-top: 4em; 
     margin-bottom: .5em;
     }    
 
 footer ul li a {
-    font-size: .5em; 
+    font-size: .75em; 
 } 
     
 footer ul {
@@ -439,6 +569,7 @@ footer img {
     width: 24.5%;
     margin-top: 0em;
 }  
-    
+
+
     
 }

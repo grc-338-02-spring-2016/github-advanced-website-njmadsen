@@ -15,23 +15,28 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-   
+    <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
     
 </head>  
 
-<body>
-      
+<body>   
+ 
+    
 <header>
-     <div class="menu">
-    <ul>
-        <li> <a href="index-advanced.html">Home</a></li>
-        <li> <a href="about-advanced.html">About Me</a></li>
-        <li> <a href="photography-advaned.html">Photography</a></li>
-        <li> <a href="contact-advanced.html">Contact</a></li>
-    </ul>
-    </div>
+		<div id="wrap">
+		    <nav id="nav">
+		      <ul>
+		        <li><a href="index-advanced.html" title="Home">Home</a></li>
+		        <li><a href="about-advanced.html" title="About">About</a></li>
+		        <li><a href="photography-advaned.html" title="Photography">Photography</a></li>
+		        <li><a href="contact-advanced.html" title="Contact">Contact</a></li>
+		      </ul>
+		    </nav>
+		</div>
+
     
-    
+     
     <div class="menu-social">
         <ul>
            
@@ -49,7 +54,8 @@
                 <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
         </ul>
     </div>     
-        
+
+
 </header>
     
     <h1>nicole madsen</h1>
@@ -59,7 +65,7 @@
 </div>    
   
     
-  <!--three images--> 
+<!--three images -->
     <div class="home-photos-three">    
         <img src="images/business-cards.jpg" alt="designs">
     </div> 
@@ -112,6 +118,20 @@
         </ul>
     
 </footer>        
+
+    <script type="text/javascript">
+        jQuery(function(){
+
+   // Fade In
+   $(".home-photos-three").fadeIn();
+
+   // Fade Out
+   $("home-photos-three").fadeOut();
+
+});
+</script>
+
+   
     
 </body>    
     

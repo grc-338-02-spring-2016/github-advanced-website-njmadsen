@@ -70,6 +70,16 @@ a:hover img { opacity: .5;
     margin-top: -.5em;
 }
 
+.design-images {
+    width:70%;
+    margin: auto;
+}
+
+.design-images img{
+    width: 31%;
+    margin:.25em;
+}
+
 .photography-images {
     width:80%;
     margin: auto;
@@ -285,15 +295,6 @@ em { font-style: italic;
     
 }
 
-.design-images {
-    width:70%;
-    margin: auto;
-}
-
-.design-images img{
-    width: 32%;
-    margin:.25em;
-}
 
 
 /*Form*/
@@ -367,7 +368,7 @@ input[type=text]:focus {
 
 
 /*For Tablets*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 815px) {
  
 /*Hmaburger menu */    
 header #nav {
@@ -452,6 +453,14 @@ header #nav.open ul {
 }
  
  /*end hamburger menu*/  
+ 
+.design-images {
+    width:80%;
+} 
+    
+.design-images img {
+     width: 30%;   
+    }    
     
 .photography-images{
     width: 85%;     
@@ -593,6 +602,16 @@ p {font-size: .8em;
     width: 100%;
     margin-top: .5em;
 }
+
+.design-images {
+    width:75%;
+   
+}      
+    
+.design-images img{
+    width:100%;
+   margin: 0em;
+}      
   
    
 /*Header*/    

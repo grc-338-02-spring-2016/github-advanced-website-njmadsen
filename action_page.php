@@ -1,12 +1,1 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>Thank you</h1>
-
-<?php
-echo "Hello World!";
-?>
-
-</body>
-</html>
+My summer project is to figure out how to make a php!
